@@ -14,7 +14,7 @@ trim()
     echo "$trimmed"
 }
 
-NFS_SERVER_NAME=${NFS_SERVER_NAME:-/export/home/mk245/test/share}
+NFS_SERVER_NAME=${NFS_SERVER_NAME:-/export/home/mk245/jupyter/}
 NFS_SERVER_SHARE=${NFS_SERVER_SHARE:-/NTU/SPMS/openshift/jupyter}
 
 # Script can optionally be passed the course name and a version number.
